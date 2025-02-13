@@ -19,13 +19,13 @@ Copy Memory Like DMA, it can read/write any system memory Hidden memory can also
 拷贝内存 像DMA一样可以读取/写入任意系统内存 隐藏的内存也可以 后续会增加:隐藏内存/反截图/保护进程/保护窗口/枚举任何数据/内存布局解密等等...尽情期待
 
 ![image](https://github.com/user-attachments/assets/7496a025-4fd6-431f-9f27-a9c5f7832feb)
-
+-
 LoadDrv(All ARK tools cannot capture) You can use Test.sys to test the loading of the driver, which will load ten "ez"
 
 加载驱动(所有ARK工具都无法捕捉) 可以使用Test.sys驱动测试加载,会加载十个"ez"
 
 ![image](https://github.com/user-attachments/assets/b7100fc7-3d14-449a-9a41-7c6aa4c7b3fc)
-
+-
 The above tests are all tested well in win10, and compatibility is not yet perfected...
 
 上述测试均在win10测试良好 兼容性未完善中...
