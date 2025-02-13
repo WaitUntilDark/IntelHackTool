@@ -1,2 +1,9 @@
 # FishArk
 Some ARK...
+简体中文:
+你可以安装ARK的驱动然后使用ARK的加载驱动功能以及拷贝内存功能...
+后续会持续更新...
+
+English:
+You can install ARK drivers and use ARK's load driver function and copy memory function
+We will continue to update in the future
