@@ -3,6 +3,10 @@ Hacking Tools / Anti-Cheating Tools
 
 黑客工具 / 反作弊工具
 
+Usage: Open Water.exe=>Click Start=>Click Init PDB (waiting for loading to end)=>Click Init Start=>Green text appears=>Normal use (red text at the beginning doesn't matter)
+
+使用方法:打开Water.exe=>点击Start=>点击Init PDB(等待加载结束)=>点击Init Start=>出现绿色字样=>正常使用 (刚开始都是红色字样不用在意).
+
 In the introduction: Chinese is at the bottom, English is at the top, just read one!
 -
 介绍中:中文在下,英文在上,只需要读一个即可!
