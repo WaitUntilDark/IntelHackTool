@@ -1,7 +1,7 @@
 # Fish Tools
-Hacking Tools / Anti-Cheating Tools
+More radical Hacking Tools / Anti-Cheating Tools
 
-黑客工具 / 反作弊工具
+更激进的黑客工具 / 反作弊工具
 
 -
 Usage: Open Water.exe=>Click Start=>Click Init PDB (waiting for loading to end)=>Click Init Start=>Green text appears=>Normal use (red text at the beginning doesn't matter)
