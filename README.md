@@ -7,27 +7,34 @@ In the introduction: Chinese is at the bottom, English is at the top, just read 
 -
 介绍中:中文在下,英文在上,只需要读一个即可!
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-English:
-You can install ARK drivers and use ARK's load driver function and copy memory function
-We will continue to update in the future！
 
-简体中文:
-你可以安装ARK的驱动然后使用ARK的加载驱动功能以及拷贝内存功能...
-后续会持续更新...
+Copy memory: It can be written to read-only memory without modifying the properties of the target process, and the properties remain unchanged after writing
 
+拷贝内存:可以在不修改目标进程属性的情况下,写入只读内存,写完之后属性依旧不变
 
-Copy Memory Like DMA, it can read/write any system memory Hidden memory can also,The following will be added: hiding memory/anti-screenshot/protecting process/protecting window/enumerating any data/memory layout decryption, etc. Stay tuned
+![image](https://github.com/user-attachments/assets/694e9a12-2e4b-443a-84d1-269c56ae12b3)
 
-拷贝内存 像DMA一样可以读取/写入任意系统内存 隐藏的内存也可以 后续会增加:隐藏内存/反截图/保护进程/保护窗口/枚举任何数据/内存布局解密等等...尽情期待
-
-![image](https://github.com/user-attachments/assets/7496a025-4fd6-431f-9f27-a9c5f7832feb)
 -
-LoadDrv(All ARK tools cannot capture) You can use Test.sys to test the loading of the driver, which will load ten "ez"
+Loading drivers (not captured by all ARK tools) can be tested using Test.sys driver, which will load ten "ez"/monitoring drivers, including manual mapping such as Kdmap loading
 
-加载驱动(所有ARK工具都无法捕捉) 可以使用Test.sys驱动测试加载,会加载十个"ez"
+加载驱动(所有ARK工具都无法捕捉) 可以使用Test.sys驱动测试加载,会加载十个"ez" / 监控驱动加载,包括手动映射,诸如Kdmap加载
 
-![image](https://github.com/user-attachments/assets/b7100fc7-3d14-449a-9a41-7c6aa4c7b3fc)
+![image](https://github.com/user-attachments/assets/1e2a6539-12f1-4e2d-b700-d10fd78d2ab6)
+
 -
-The above tests are all tested well in win10, and compatibility is not yet perfected...
 
-上述测试均在win10测试良好 兼容性未完善中...
+Hidden memory class: It can hide specified memory, and no driver can read the memory!
+
+隐藏内存类:可以隐藏指定内存,任何驱动都读取不到内存!
+
+![image](https://github.com/user-attachments/assets/0d06d8c3-a9cc-422a-9594-21e8c301aa1d)
+
+Traverse system windows: It can traverse any hidden window information. The printed information includes (window style, window rectangle, window name, window class name, window thread ETHREAD, window process ID, window process name...)
+
+遍历系统窗口:可以遍历出任意隐藏的窗口信息 打印的信息包括(窗口样式,窗口矩形,窗口名字,窗口类名,窗口的线程ETHREAD,窗口的进程ID,窗口的进程名字...)
+
+![Uploading image.png…]()
+
+The above printed content can be checked using MongoDB or DbgView. Currently, it is compatible with Win10 21H2 version and is good because it is not well made compatible (too tiring)
+
+以上打印的内容均可以用WinDbg 或者 DbgView 检查,目前兼容Win10 21H2版本良好 因为没有制作良好的兼容性(太累了)
