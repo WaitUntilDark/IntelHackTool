@@ -3,6 +3,10 @@ More radical Hacking Tools / Anti-Cheating Tools
 
 更激进的黑客工具 / 反作弊工具
 
+Demo video click to watch => https://v.douyin.com/i513bydm/  
+
+演示视频点击观看 => https://v.douyin.com/i513bydm/ 
+
 -
 Usage: Open Water.exe=>Click Start=>Click Init PDB (waiting for loading to end)=>Click Init Start=>Green text appears=>Normal use (red text at the beginning doesn't matter)
 -
@@ -15,9 +19,9 @@ In the introduction: Chinese is at the bottom, English is at the top, just read 
 介绍中:中文在下,英文在上,只需要读一个即可!
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 -
-Copy memory: It can be written to read-only memory without modifying the properties of the target process, and the properties remain unchanged after writing
+Copy memory: It can be written to read-only memory without modifying the properties of the target process, and the properties remain unchanged after writing,This is not about changing attributes=>writing=>changing back, the entire process will not be modified!
 
-拷贝内存:可以在不修改目标进程属性的情况下,写入只读内存,写完之后属性依旧不变
+拷贝内存:可以在不修改目标进程属性的情况下,写入只读内存,写完之后属性依旧不变,这里并不是改属性=>写入=>改回,全程不修改!
 
 ![image](https://github.com/user-attachments/assets/694e9a12-2e4b-443a-84d1-269c56ae12b3)
 -
@@ -56,3 +60,10 @@ We will continue to update the content in the future, look forward to it! Contac
 
 后续会持续更新内容,尽情期待!联系方式邮箱:anonymous4chan@vip.qq.com,有任何问题或者意见可以联系我的邮箱!
 -
+
+BUG:
+[1] After loading all functions, it is temporarily impossible to open the driver selection list with three points. Manually enter the driver path to load: \?? \C:\Users\Administrator\Deskto\test.sys
+
+漏洞:
+[1]在加载完全部功能暂时无法用三个点打开选择驱动列表,手动输入要加载的驱动路径:\??\C:\Users\Administrator\Deskto\test.sys
+
