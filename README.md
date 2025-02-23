@@ -1,4 +1,9 @@
 # Fish Tools
+
+Note: Only for Intel CPUs at present.
+
+注意事项:仅限Intel CPU使用目前
+
 More radical Hacking Tools / Anti-Cheating Tools
 
 更激进的黑客工具 / 反作弊工具
