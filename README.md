@@ -33,7 +33,7 @@ Traverse system windows: It can traverse any hidden window information. The prin
 
 遍历系统窗口:可以遍历出任意隐藏的窗口信息 打印的信息包括(窗口样式,窗口矩形,窗口名字,窗口类名,窗口的线程ETHREAD,窗口的进程ID,窗口的进程名字...)
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/7ad1ace7-4b1b-408b-9a53-67abd3a9024d)
 
 The above printed content can be checked using MongoDB or DbgView. Currently, it is compatible with Win10 21H2 version and is good because it is not well made compatible (too tiring)
 
