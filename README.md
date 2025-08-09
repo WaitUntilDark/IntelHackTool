@@ -8,13 +8,6 @@ More radical Hacking Tools / Anti-Cheating Tools
 
 更激进的黑客工具 / 反作弊工具
 
-Demo video click to watch => https://v.douyin.com/i513bydm/  
-
-演示视频点击观看 => https://v.douyin.com/i513bydm/ 
-
-video 2 : https://www.bilibili.com/video/BV1Pu9FYjEUD/?share_source=copy_web&vd_source=4008e2799da6415e02477b44110ddda2
-
-
 -
 Usage: Open Water.exe=>Click Start=>Click Init PDB (waiting for loading to end)=>Click Init Start=>Green text appears=>Normal use (red text at the beginning doesn't matter)
 -
@@ -56,7 +49,7 @@ Traverse system windows: It can traverse any hidden window information. The prin
 
 The above printed content can be checked using MongoDB or DbgView. Currently, it is compatible with Win10 21H2 version and is good because it is not well made compatible (too tiring)
 
-以上打印的内容均可以用WinDbg 或者 DbgView 检查,目前兼容Win10 21H2版本良好 因为没有制作良好的兼容性(太累了)
+以上打印的内容均可以用WinDbg 或者 DbgView 检查,目前兼容Win10 21H2版本良好
 -
 
 BUG:
